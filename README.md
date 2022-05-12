@@ -11,7 +11,7 @@ Note that it may be needed to change the work path in the file write.c, and rege
 
 Format of the output file:
 
-First five blocks stores basic information of the slice, they are:
+  First five blocks stores basic information of the slice, they are:
 (int) num_particles (double) mass_particles (double) boxsize (units: kpc) (double) distance (units: kpc) (double) redshift.
 
 The following blocks stores the position of the particles, whose unit is Mpc.
