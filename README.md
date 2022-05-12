@@ -1,3 +1,6 @@
+ge_lightcone
+============
+
 A code to generate 2D slices from Gadget-2 type simulation snapshots.
 
 Direction of the Line of Sight (LoS) can be defined.
