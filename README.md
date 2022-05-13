@@ -1,7 +1,21 @@
-ge_lightcone
-============
+**ge_lightcone**
+=======================================================================================================================
 
 A code to generate 2D slices from Gadget-2 type simulation snapshots.
+
+This code can be run in a Linux environment. 
+
+Usage:
+
+First generate the output library
+`gcc -fPIC -shared write.c -o libwrite.so`
+
+Then run the file `trash_lightcone.py` like
+`python trash_lightcone.py`
+
+Note that if you use default path in file `write.c`, you need generate a dictionary named `slices` in parent work path:
+
+`mkdir slices`
 
 Direction of the Line of Sight (LoS) can be defined.
 
